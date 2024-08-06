@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Core/Inc",
+                "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
+                // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/include",
+                // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2",
+                // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Include",
+                "${workspaceFolder}/User/Emm_V42/Inc",
+                "${workspaceFolder}/User/Servo/Inc",
+                "${workspaceFolder}/User/Main/Inc"
+                // "${workspaceFolder}/User/algorithm/Inc",
+                // "${workspaceFolder}/User/Detection/Inc",
+                // "${workspaceFolder}/User/Gyro/Inc",
+                // "${workspaceFolder}/User/Main/Inc",
+                // "${workspaceFolder}/User/My_Task/Inc",
+                // "${workspaceFolder}/User/OLED/Inc",
+                // "${workspaceFolder}/User/OpenMV/Inc"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_HAL_DRIVER",
+                "STM32F407xx"
+            ],
+            "compilerPath": "D:\\VScode\\MinGW_posix\\mingw64\\bin\\gcc.exe",
+            "intelliSenseMode": "gcc-arm",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}

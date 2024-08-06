@@ -1,0 +1,143 @@
+{
+    // "cortex-debug.armToolchainPath": "C:\\Program Files (x86)\\GNU Arm Embedded Toolchain\\10 2021.10\\bin",
+    "cortex-debug.openocdPath": "${workspaceFolder}/xpack-openocd-0.12.0-1/bin/openocd.exe",
+    "files.associations": {
+        "*.tcc": "cpp",
+        "gait_param.h": "c",
+        "ahrs_task.h": "c",
+        "jy901s.h": "c",
+        "main.h": "c",
+        "posture_task.h": "c",
+        "task.h": "c",
+        "adc_task.h": "c",
+        "step42.h": "c",
+        "can.h": "c",
+        "emm_v42.h": "c",
+        "my_math.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "stdint.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    "git.ignoreLimitWarning": true,
+    "C_Cpp_Runner.msvcBatchPath": "",
+    "C_Cpp_Runner.cCompilerPath": "gcc",
+    "C_Cpp_Runner.cppCompilerPath": "g++",
+    "C_Cpp_Runner.debuggerPath": "gdb",
+    "C_Cpp_Runner.cStandard": "",
+    "C_Cpp_Runner.cppStandard": "",
+    "C_Cpp_Runner.useMsvc": false,
+    "C_Cpp_Runner.warnings": [
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Wshadow",
+    "-Wformat=2",
+    "-Wconversion",
+    "-Wnull-dereference",
+    "-Wsign-conversion"
+    ],
+    "C_Cpp_Runner.enableWarnings": true,
+    "C_Cpp_Runner.warningsAsError": false,
+    "C_Cpp_Runner.compilerArgs": [],
+    "C_Cpp_Runner.linkerArgs": [],
+    "C_Cpp_Runner.includePaths": [],
+    "C_Cpp_Runner.includeSearch": [
+    "*",
+    "**/*"
+    ],
+    "C_Cpp_Runner.excludeSearch": [
+    "**/build",
+    "**/build/**",
+    "**/.*",
+    "**/.*/**",
+    "**/.vscode",
+    "**/.vscode/**"
+    ],
+    // 注释着重类型
+    "better-comments.tags": [
+    {
+        "tag": "!",
+        "color": "#FF2D00",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+    },
+    {
+        "tag": "?",
+        "color": "#3498DB",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+    },
+    {
+        "tag": "//",
+        "color": "#474747",
+        "strikethrough": true,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+    },
+    {
+        "tag": "todo",
+        "color": "#FF8C00",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+    },
+    {
+        "tag": "*",
+        "color": "#98C379",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+    }
+    ],
+    //osu插件启用
+    "osumode.enabled": true,
+    //osu插件 代码爆炸效果
+    "osumode.enableCursorExplosions": true,
+    //osu插件 代码爆炸大小
+    "osumode.explosionSize": 10,
+    //osu 连击计数
+    "osumode.enableComboCounter": false,
+    //osu 启用连击图像
+    "osumode.enableComboImage": false,
+    //pm插件启用
+    "powermode.enabled": true,
+    //样式
+    //"powermode.presets": "simple-rift",
+    // 粒子效果
+    "powermode.presets": "fireworks",
+    "powermode.combo.timeout": 10,
+    "powermode.shake.enabled": false,
+    "powermode.explosions.backgroundMode": "mask",
+    // 生成函数参数@param注释及自动添加头注释和函数注释
+    /**
+    * 自动更新最后的编辑时间和编辑人 ctrl+win+i
+    * 支持用户高度自定义注释选项  ctrl+alt+t
+    */
+    "fileheader.customMade": {
+        "Author": "jkydh", // 改成你的名字
+        "Date": "", // 文件创建时间
+        "LastEditors": "", // 文件最后编辑者
+        "LastEditTime": "", // 文件最后编辑时间
+        "Description":"请填写简介",
+    },
+
+    "fileheader.configObj": {
+        "CheckFileChange": false, // 默认关闭
+        "wideSame": false, // 设置为true开启
+        "wideNum": 13, // 字段长度 默认为13
+        "createHeader": true // 创建文件自动添加注释
+    },
+}
