@@ -42,8 +42,8 @@ rubish_car\freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.
 rubish_car\freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 rubish_car\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h
 rubish_car\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
-rubish_car\freertos.o: ..\BJ_control\Inc\bj_motor.h
-rubish_car\freertos.o: ..\User\Usart_Task\Inc\Usart_Task.h
+rubish_car\freertos.o: ../BJ_control/Inc/bj_motor.h
+rubish_car\freertos.o: ../User/Usart_Task/Inc/Usart_Task.h
 rubish_car\freertos.o: ../Core/Inc/usart.h
-rubish_car\freertos.o: ..\User\User\Inc\Invert_Garbage_Task.h
-rubish_car\freertos.o: ..\User\User\Inc\Conveyor_Bj_Task.h
+rubish_car\freertos.o: ../User/User/Inc/Invert_Garbage_Task.h
+rubish_car\freertos.o: ../User/User/Inc/Conveyor_Bj_Task.h

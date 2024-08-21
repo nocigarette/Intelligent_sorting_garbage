@@ -1,5 +1,5 @@
 rubish_car\invert_garbage_task.o: ..\User\User\Src\Invert_Garbage_Task.c
-rubish_car\invert_garbage_task.o: ..\User\User\Inc\Invert_Garbage_Task.h
+rubish_car\invert_garbage_task.o: ../User/User/Inc/Invert_Garbage_Task.h
 rubish_car\invert_garbage_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
 rubish_car\invert_garbage_task.o: D:\Program Files\Keil_v5\ARM\ARMCompilerV5\Bin\..\include\stddef.h
 rubish_car\invert_garbage_task.o: D:\Program Files\Keil_v5\ARM\ARMCompilerV5\Bin\..\include\stdint.h
@@ -43,6 +43,6 @@ rubish_car\invert_garbage_task.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_
 rubish_car\invert_garbage_task.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 rubish_car\invert_garbage_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h
 rubish_car\invert_garbage_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
-rubish_car\invert_garbage_task.o: ..\User\Usart_Task\Inc\Usart_Task.h
+rubish_car\invert_garbage_task.o: ../User/Usart_Task/Inc/Usart_Task.h
 rubish_car\invert_garbage_task.o: ../Core/Inc/usart.h
 rubish_car\invert_garbage_task.o: ../Core/Inc/tim.h

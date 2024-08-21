@@ -42,7 +42,7 @@ rubish_car\usart_task.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_e
 rubish_car\usart_task.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 rubish_car\usart_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h
 rubish_car\usart_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
-rubish_car\usart_task.o: ..\User\Usart_Task\Inc\Usart_Task.h
+rubish_car\usart_task.o: ../User/Usart_Task/Inc/Usart_Task.h
 rubish_car\usart_task.o: ../Core/Inc/usart.h
 rubish_car\usart_task.o: ../Core/Inc/tim.h
 rubish_car\usart_task.o: ../Core/Inc/gpio.h
