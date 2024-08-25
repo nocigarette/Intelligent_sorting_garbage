@@ -1,6 +1,6 @@
 rubish_car\conveyor_bj_task.o: ..\User\User\Src\Conveyor_Bj_Task.c
-rubish_car\conveyor_bj_task.o: ..\User\User\Inc\Conveyor_Bj_Task.h
-rubish_car\conveyor_bj_task.o: ..\User\User\Inc\Invert_Garbage_Task.h
+rubish_car\conveyor_bj_task.o: ../User/User/Inc/Conveyor_Bj_Task.h
+rubish_car\conveyor_bj_task.o: ../User/User/Inc/Invert_Garbage_Task.h
 rubish_car\conveyor_bj_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
 rubish_car\conveyor_bj_task.o: D:\Program Files\Keil_v5\ARM\ARMCompilerV5\Bin\..\include\stddef.h
 rubish_car\conveyor_bj_task.o: D:\Program Files\Keil_v5\ARM\ARMCompilerV5\Bin\..\include\stdint.h
@@ -44,7 +44,7 @@ rubish_car\conveyor_bj_task.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal
 rubish_car\conveyor_bj_task.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 rubish_car\conveyor_bj_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h
 rubish_car\conveyor_bj_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
-rubish_car\conveyor_bj_task.o: ..\User\Usart_Task\Inc\Usart_Task.h
+rubish_car\conveyor_bj_task.o: ../User/Usart_Task/Inc/Usart_Task.h
 rubish_car\conveyor_bj_task.o: ../Core/Inc/usart.h
 rubish_car\conveyor_bj_task.o: ../Core/Inc/tim.h
-rubish_car\conveyor_bj_task.o: ..\BJ_control\Inc\bj_motor.h
+rubish_car\conveyor_bj_task.o: ../BJ_control/Inc/bj_motor.h

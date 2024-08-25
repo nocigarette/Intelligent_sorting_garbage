@@ -1,5 +1,5 @@
 rubish_car\bj_motor.o: ..\BJ_control\Src\bj_motor.c
-rubish_car\bj_motor.o: ..\BJ_control\Inc\bj_motor.h
+rubish_car\bj_motor.o: ../BJ_control/Inc/bj_motor.h
 rubish_car\bj_motor.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 rubish_car\bj_motor.o: ../Core/Inc/stm32f4xx_hal_conf.h
 rubish_car\bj_motor.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
