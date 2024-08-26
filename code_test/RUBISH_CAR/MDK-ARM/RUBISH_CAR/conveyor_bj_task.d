@@ -1,9 +1,9 @@
 rubish_car\conveyor_bj_task.o: ..\User\User\Src\Conveyor_Bj_Task.c
 rubish_car\conveyor_bj_task.o: ../User/User/Inc/Conveyor_Bj_Task.h
+rubish_car\conveyor_bj_task.o: D:\Program Files\Keil_v5\ARM\ARMCompilerV5\Bin\..\include\stdint.h
 rubish_car\conveyor_bj_task.o: ../User/User/Inc/Invert_Garbage_Task.h
 rubish_car\conveyor_bj_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
 rubish_car\conveyor_bj_task.o: D:\Program Files\Keil_v5\ARM\ARMCompilerV5\Bin\..\include\stddef.h
-rubish_car\conveyor_bj_task.o: D:\Program Files\Keil_v5\ARM\ARMCompilerV5\Bin\..\include\stdint.h
 rubish_car\conveyor_bj_task.o: ../Core/Inc/FreeRTOSConfig.h
 rubish_car\conveyor_bj_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 rubish_car\conveyor_bj_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h

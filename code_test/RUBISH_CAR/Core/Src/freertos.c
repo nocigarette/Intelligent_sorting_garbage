@@ -29,6 +29,8 @@
 #include "Usart_Task.h"
 #include "Invert_Garbage_Task.h"
 #include "Conveyor_Bj_Task.h"
+#include "Drp_Task.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -80,6 +82,20 @@ const osThreadAttr_t Panel_Dj_Task_attributes = {
   .stack_size = 128 * 4,
   .priority = (osPriority_t) osPriorityNormal5,
 };
+
+osThreadId_t Drp_TaskHandle;
+const osThreadAttr_t Drp_Task_attributes = {
+  .name = "Drp_Task",
+  .stack_size = 128 * 4,
+  .priority = (osPriority_t) osPriorityNormal6,
+};
+
+osThreadId_t tr_Full_TaskHandle;
+const osThreadAttr_t tr_Full_Task_attributes = {
+  .name = "tr_Full_Task",
+  .stack_size = 128 * 4,
+  .priority = (osPriority_t) osPriorityNormal6,
+};
 /* USER CODE END FunctionPrototypes */
 
 void StartDefaultTask(void *argument);
@@ -120,6 +136,8 @@ void MX_FREERTOS_Init(void) {
 	Conveyor_TaskHandle= osThreadNew(Conveyor_Task,NULL,&Conveyor_task_attributes);
 	Invert_taskHandle= osThreadNew(Invert_task,NULL,&Invert_task_attributes);
 	Panel_Dj_TaskHandle= osThreadNew(Panel_Dj_Task,NULL,&Panel_Dj_Task_attributes);
+	Drp_TaskHandle= osThreadNew(Drp_Task,NULL,&Drp_Task_attributes);
+	tr_Full_TaskHandle= osThreadNew(tr_Full_Task,NULL,&tr_Full_Task_attributes);
   /* add threads, ... */
   /* USER CODE END RTOS_THREADS */
 

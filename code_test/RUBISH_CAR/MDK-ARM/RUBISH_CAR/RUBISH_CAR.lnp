@@ -38,6 +38,7 @@
 "rubish_car\usart_task.o"
 "rubish_car\invert_garbage_task.o"
 "rubish_car\conveyor_bj_task.o"
+"rubish_car\drp_task.o"
 --strict --scatter "RUBISH_CAR\RUBISH_CAR.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

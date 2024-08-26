@@ -47,3 +47,4 @@ rubish_car\freertos.o: ../User/Usart_Task/Inc/Usart_Task.h
 rubish_car\freertos.o: ../Core/Inc/usart.h
 rubish_car\freertos.o: ../User/User/Inc/Invert_Garbage_Task.h
 rubish_car\freertos.o: ../User/User/Inc/Conveyor_Bj_Task.h
+rubish_car\freertos.o: ../User/User/Inc/Drp_Task.h

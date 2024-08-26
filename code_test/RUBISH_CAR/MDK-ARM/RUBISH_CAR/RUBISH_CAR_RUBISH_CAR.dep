@@ -1,7 +1,7 @@
 Dependencies for Project 'RUBISH_CAR', Target 'RUBISH_CAR': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCompilerV5
-F (startup_stm32f407xx.s)(0x66C5E996)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I ../Core/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"--pd "__UVISION_VERSION SETA 540" --pd "STM32F407xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f407xx.lst --xref -o rubish_car\startup_stm32f407xx.o --depend rubish_car\startup_stm32f407xx.d)
-F (../Core/Src/main.c)(0x66C5EA10)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\main.o --omf_browse rubish_car\main.crf --depend rubish_car\main.d)
+F (startup_stm32f407xx.s)(0x66CC97AE)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I ../Core/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"--pd "__UVISION_VERSION SETA 540" --pd "STM32F407xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f407xx.lst --xref -o rubish_car\startup_stm32f407xx.o --depend rubish_car\startup_stm32f407xx.d)
+F (../Core/Src/main.c)(0x66CC7910)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\main.o --omf_browse rubish_car\main.crf --depend rubish_car\main.d)
 I (../Core/Inc/main.h)(0x66C0B028)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6683F01A)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66C0B028)
@@ -44,10 +44,10 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6683F01C
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6683F01C)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6683F01C)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x6683F01C)
-I (../Core/Inc/tim.h)(0x66C5E994)
+I (../Core/Inc/tim.h)(0x66CC51D8)
 I (../Core/Inc/usart.h)(0x66C0B028)
 I (../Core/Inc/gpio.h)(0x66C0B027)
-F (../Core/Src/gpio.c)(0x66C18CB8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\gpio.o --omf_browse rubish_car\gpio.crf --depend rubish_car\gpio.d)
+F (../Core/Src/gpio.c)(0x66CC5599)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\gpio.o --omf_browse rubish_car\gpio.crf --depend rubish_car\gpio.d)
 I (../Core/Inc/gpio.h)(0x66C0B027)
 I (../Core/Inc/main.h)(0x66C0B028)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6683F01A)
@@ -80,7 +80,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6683F01A)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6683F01A)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6683F01A)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6683F01A)
-F (../Core/Src/freertos.c)(0x66C33278)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\freertos.o --omf_browse rubish_car\freertos.crf --depend rubish_car\freertos.d)
+F (../Core/Src/freertos.c)(0x66CC7A5F)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\freertos.o --omf_browse rubish_car\freertos.crf --depend rubish_car\freertos.d)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6683F01C)
 I (D:\Program Files\Keil_v5\ARM\ARMCompilerV5\include\stddef.h)(0x5E8E3CC2)
 I (D:\Program Files\Keil_v5\ARM\ARMCompilerV5\include\stdint.h)(0x5E8E3CC2)
@@ -123,13 +123,14 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6683F01A)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6683F01A)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x6683F01C)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x6683F01C)
-I (..\BJ_control\Inc\bj_motor.h)(0x66C1B6B5)
-I (..\User\Usart_Task\Inc\Usart_Task.h)(0x66C204A9)
+I (../BJ_control/Inc/bj_motor.h)(0x66CB425D)
+I (../User/Usart_Task/Inc/Usart_Task.h)(0x66CC7910)
 I (../Core/Inc/usart.h)(0x66C0B028)
-I (..\User\User\Inc\Invert_Garbage_Task.h)(0x66C204B5)
-I (..\User\User\Inc\Conveyor_Bj_Task.h)(0x66C33278)
-F (../Core/Src/tim.c)(0x66C5E994)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\tim.o --omf_browse rubish_car\tim.crf --depend rubish_car\tim.d)
-I (../Core/Inc/tim.h)(0x66C5E994)
+I (../User/User/Inc/Invert_Garbage_Task.h)(0x66CC6C0F)
+I (../User/User/Inc/Conveyor_Bj_Task.h)(0x66CC70CB)
+I (../User/User/Inc/Drp_Task.h)(0x66CC7B57)
+F (../Core/Src/tim.c)(0x66CC51D8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\tim.o --omf_browse rubish_car\tim.crf --depend rubish_car\tim.d)
+I (../Core/Inc/tim.h)(0x66CC51D8)
 I (../Core/Inc/main.h)(0x66C0B028)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6683F01A)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66C0B028)
@@ -161,7 +162,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6683F01A)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6683F01A)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6683F01A)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6683F01A)
-F (../Core/Src/usart.c)(0x66C18CEB)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\usart.o --omf_browse rubish_car\usart.crf --depend rubish_car\usart.d)
+F (../Core/Src/usart.c)(0x66CC97AD)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\usart.o --omf_browse rubish_car\usart.crf --depend rubish_car\usart.d)
 I (../Core/Inc/usart.h)(0x66C0B028)
 I (../Core/Inc/main.h)(0x66C0B028)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6683F01A)
@@ -968,8 +969,8 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6683F01C)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6683F01C)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6683F01C)
-F (..\BJ_control\Src\bj_motor.c)(0x66C33490)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\bj_motor.o --omf_browse rubish_car\bj_motor.crf --depend rubish_car\bj_motor.d)
-I (..\BJ_control\Inc\bj_motor.h)(0x66C1B6B5)
+F (..\BJ_control\Src\bj_motor.c)(0x66CC7ED4)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\bj_motor.o --omf_browse rubish_car\bj_motor.crf --depend rubish_car\bj_motor.d)
+I (../BJ_control/Inc/bj_motor.h)(0x66CB425D)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6683F01A)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66C0B028)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6683F01A)
@@ -1000,7 +1001,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6683F01A)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6683F01A)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6683F01A)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6683F01A)
-F (..\User\Usart_Task\Src\Usart_Task.c)(0x66C204AC)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\usart_task.o --omf_browse rubish_car\usart_task.crf --depend rubish_car\usart_task.d)
+F (..\User\Usart_Task\Src\Usart_Task.c)(0x66CC7910)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\usart_task.o --omf_browse rubish_car\usart_task.crf --depend rubish_car\usart_task.d)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6683F01C)
 I (D:\Program Files\Keil_v5\ARM\ARMCompilerV5\include\stddef.h)(0x5E8E3CC2)
 I (D:\Program Files\Keil_v5\ARM\ARMCompilerV5\include\stdint.h)(0x5E8E3CC2)
@@ -1043,12 +1044,12 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6683F01A)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6683F01A)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x6683F01C)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x6683F01C)
-I (..\User\Usart_Task\Inc\Usart_Task.h)(0x66C204A9)
+I (../User/Usart_Task/Inc/Usart_Task.h)(0x66CC7910)
 I (../Core/Inc/usart.h)(0x66C0B028)
-I (../Core/Inc/tim.h)(0x66C5E994)
+I (../Core/Inc/tim.h)(0x66CC51D8)
 I (../Core/Inc/gpio.h)(0x66C0B027)
-F (..\User\User\Src\Invert_Garbage_Task.c)(0x66C5EA10)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\invert_garbage_task.o --omf_browse rubish_car\invert_garbage_task.crf --depend rubish_car\invert_garbage_task.d)
-I (../User/User/Inc/Invert_Garbage_Task.h)(0x66C204B5)
+F (..\User\User\Src\Invert_Garbage_Task.c)(0x66CC7910)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\invert_garbage_task.o --omf_browse rubish_car\invert_garbage_task.crf --depend rubish_car\invert_garbage_task.d)
+I (../User/User/Inc/Invert_Garbage_Task.h)(0x66CC6C0F)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6683F01C)
 I (D:\Program Files\Keil_v5\ARM\ARMCompilerV5\include\stddef.h)(0x5E8E3CC2)
 I (D:\Program Files\Keil_v5\ARM\ARMCompilerV5\include\stdint.h)(0x5E8E3CC2)
@@ -1091,12 +1092,61 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6683F01A)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6683F01A)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x6683F01C)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x6683F01C)
-I (../User/Usart_Task/Inc/Usart_Task.h)(0x66C204A9)
+I (../User/Usart_Task/Inc/Usart_Task.h)(0x66CC7910)
 I (../Core/Inc/usart.h)(0x66C0B028)
-I (../Core/Inc/tim.h)(0x66C5E994)
-F (..\User\User\Src\Conveyor_Bj_Task.c)(0x66C33294)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\conveyor_bj_task.o --omf_browse rubish_car\conveyor_bj_task.crf --depend rubish_car\conveyor_bj_task.d)
-I (..\User\User\Inc\Conveyor_Bj_Task.h)(0x66C33278)
-I (..\User\User\Inc\Invert_Garbage_Task.h)(0x66C204B5)
+I (../Core/Inc/tim.h)(0x66CC51D8)
+I (../User/User/Inc/Conveyor_Bj_Task.h)(0x66CC70CB)
+F (..\User\User\Src\Conveyor_Bj_Task.c)(0x66CC7E4E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\conveyor_bj_task.o --omf_browse rubish_car\conveyor_bj_task.crf --depend rubish_car\conveyor_bj_task.d)
+I (../User/User/Inc/Conveyor_Bj_Task.h)(0x66CC70CB)
+I (D:\Program Files\Keil_v5\ARM\ARMCompilerV5\include\stdint.h)(0x5E8E3CC2)
+I (../User/User/Inc/Invert_Garbage_Task.h)(0x66CC6C0F)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6683F01C)
+I (D:\Program Files\Keil_v5\ARM\ARMCompilerV5\include\stddef.h)(0x5E8E3CC2)
+I (../Core/Inc/FreeRTOSConfig.h)(0x66C18CEA)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x6683F01C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x6683F01C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x6683F01C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h)(0x6683F01C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6683F01C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6683F01C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6683F01C)
+I (../Core/Inc/main.h)(0x66C0B028)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6683F01A)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x66C0B028)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6683F01A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6683F01A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6683F016)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x6683F016)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6683F01A)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6683F01A)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6683F01A)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6683F01A)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6683F01A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6683F016)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6683F01A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6683F01A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6683F01A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6683F01A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6683F01A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6683F01A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6683F01A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6683F01A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6683F01A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6683F01A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6683F01A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6683F01A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6683F01A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x6683F01A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6683F01A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6683F01A)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x6683F01C)
+I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x6683F01C)
+I (../User/Usart_Task/Inc/Usart_Task.h)(0x66CC7910)
+I (../Core/Inc/usart.h)(0x66C0B028)
+I (../Core/Inc/tim.h)(0x66CC51D8)
+I (../BJ_control/Inc/bj_motor.h)(0x66CB425D)
+F (..\User\User\Src\Drp_Task.c)(0x66CC7F23)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../BJ_control/Inc -I ../User/Usart_Task/Inc -I ../User/User/Inc-I.\RTE\_RUBISH_CAR-I"D:\Program Files\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include"-I"D:\Program Files\Arm\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-D__UVISION_VERSION="540" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o rubish_car\drp_task.o --omf_browse rubish_car\drp_task.crf --depend rubish_car\drp_task.d)
+I (../User/User/Inc/Invert_Garbage_Task.h)(0x66CC6C0F)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x6683F01C)
 I (D:\Program Files\Keil_v5\ARM\ARMCompilerV5\include\stddef.h)(0x5E8E3CC2)
 I (D:\Program Files\Keil_v5\ARM\ARMCompilerV5\include\stdint.h)(0x5E8E3CC2)
@@ -1139,7 +1189,8 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x6683F01A)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x6683F01A)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x6683F01C)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x6683F01C)
-I (..\User\Usart_Task\Inc\Usart_Task.h)(0x66C204A9)
+I (../User/Usart_Task/Inc/Usart_Task.h)(0x66CC7910)
 I (../Core/Inc/usart.h)(0x66C0B028)
-I (../Core/Inc/tim.h)(0x66C5E994)
-I (..\BJ_control\Inc\bj_motor.h)(0x66C1B6B5)
+I (../Core/Inc/tim.h)(0x66CC51D8)
+I (../User/User/Inc/Drp_Task.h)(0x66CC7B57)
+I (../User/User/Inc/Conveyor_Bj_Task.h)(0x66CC70CB)

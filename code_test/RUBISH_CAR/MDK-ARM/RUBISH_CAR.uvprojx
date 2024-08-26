@@ -1239,6 +1239,11 @@
               <FileType>1</FileType>
               <FilePath>..\User\User\Src\Conveyor_Bj_Task.c</FilePath>
             </File>
+            <File>
+              <FileName>Drp_Task.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\User\Src\Drp_Task.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

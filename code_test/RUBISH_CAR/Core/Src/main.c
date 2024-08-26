@@ -30,8 +30,11 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-extern uint8_t rv_Camera[15];
-extern uint8_t tr_st[10];
+extern uint8_t rv_Camera[4];
+extern uint8_t tr_st[5];
+extern uint8_t drp[4];
+extern int singles;
+
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -92,18 +95,18 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_TIM1_Init();
-  MX_TIM3_Init();
   MX_USART1_UART_Init();
+  MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-	HAL_UART_Receive_IT(&huart1, rv_Camera, 15);
+	HAL_UART_Receive_IT(&huart1, rv_Camera, 5);
 	HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_1);
 	HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_2);
 	HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_3);
-	HAL_TIM_PWM_Start(&htim3,TIM_CHANNEL_1);
-	HAL_TIM_PWM_Start(&htim3,TIM_CHANNEL_2);
+	HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_1);
+	HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_2);
 	__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,155);	
 	__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_2,150);
-	__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_3,200);
+	__HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_1,200);
 	
   /* USER CODE END 2 */
 

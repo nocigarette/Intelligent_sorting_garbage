@@ -46,3 +46,4 @@ rubish_car\invert_garbage_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMS
 rubish_car\invert_garbage_task.o: ../User/Usart_Task/Inc/Usart_Task.h
 rubish_car\invert_garbage_task.o: ../Core/Inc/usart.h
 rubish_car\invert_garbage_task.o: ../Core/Inc/tim.h
+rubish_car\invert_garbage_task.o: ../User/User/Inc/Conveyor_Bj_Task.h
