@@ -25,7 +25,11 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+ #include "Invert_Garbage_Task.h"
+ #include "FreeRTOS.h"
+ #include "Usart_Task.h"
 
+ #include "Conveyor_Bj_Task.h" 
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -34,6 +38,8 @@ extern uint8_t rv_Camera[4];
 extern uint8_t tr_st[5];
 extern uint8_t drp[4];
 extern int singles;
+
+//uint8_t aa[5]={1,0,0,0,0};
 
 /* USER CODE END PTD */
 
@@ -98,7 +104,9 @@ int main(void)
   MX_USART1_UART_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-	HAL_UART_Receive_IT(&huart1, rv_Camera, 5);
+  HAL_UART_Receive_IT(&huart1, rv_Camera, 4);
+  UART_Start_Receive_IT(&huart1,rv_Camera,4);
+	HAL_UART_Transmit_IT(&huart1, tr_st, 5);
 	HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_1);
 	HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_2);
 	HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_3);

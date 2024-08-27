@@ -73,7 +73,7 @@ osThreadId_t Invert_taskHandle;
 const osThreadAttr_t Invert_task_attributes = {
   .name = "Invert_task",
   .stack_size = 128 * 4,
-  .priority = (osPriority_t) osPriorityNormal4,
+  .priority = (osPriority_t) osPriorityNormal7,
 };
 
 osThreadId_t Panel_Dj_TaskHandle;
@@ -87,7 +87,7 @@ osThreadId_t Drp_TaskHandle;
 const osThreadAttr_t Drp_Task_attributes = {
   .name = "Drp_Task",
   .stack_size = 128 * 4,
-  .priority = (osPriority_t) osPriorityNormal6,
+  .priority = (osPriority_t) osPriorityNormal4,
 };
 
 osThreadId_t tr_Full_TaskHandle;

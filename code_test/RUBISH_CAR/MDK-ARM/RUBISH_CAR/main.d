@@ -45,3 +45,6 @@ rubish_car\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsi
 rubish_car\main.o: ../Core/Inc/tim.h
 rubish_car\main.o: ../Core/Inc/usart.h
 rubish_car\main.o: ../Core/Inc/gpio.h
+rubish_car\main.o: ../User/User/Inc/Invert_Garbage_Task.h
+rubish_car\main.o: ../User/Usart_Task/Inc/Usart_Task.h
+rubish_car\main.o: ../User/User/Inc/Conveyor_Bj_Task.h

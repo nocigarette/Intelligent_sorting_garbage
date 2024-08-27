@@ -7,13 +7,13 @@
  #include "tim.h"
  #include "Conveyor_Bj_Task.h" 
  
- int singles=0;
+ int singles= 0;
  
 	void Invert_task(void* argument){
 		
 		while(1){
 			
-			if(rv_Camera[0] == 1){
+			if(rv_Camera[0] == '1'){
 			
 				__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,200);
 				osDelay(500);
@@ -22,9 +22,12 @@
 				osDelay(500);
 				tr_st[0]= 1;
 				singles=0;
-				rv_Camera[0] = 0;
+//				rv_Camera[0] = 0;
+//				rv_Camera[1] = 0;
+//				rv_Camera[2] = 0;
+//				rv_Camera[3] = 0;
 			}
-			else if(rv_Camera[0] == 2){
+			else if(rv_Camera[0] == '2'){
 			
 				__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,100);
 				osDelay(500);
@@ -33,9 +36,12 @@
 				osDelay(500);
 				tr_st[0]= 1;
 				singles=0;
-				rv_Camera[0] = 0;
+//				rv_Camera[0] = 0;
+//				rv_Camera[1] = 0;
+//				rv_Camera[2] = 0;
+//				rv_Camera[3] = 0;
 			}
-			else if(rv_Camera[0] == 3){
+			else if(rv_Camera[0] == '3'){
 			
 				__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_2,100);
 				osDelay(500);
@@ -44,9 +50,9 @@
 				osDelay(500);
 				tr_st[0]= 1;
 				singles=0;
-				rv_Camera[0] = 0;
+
 			}
-			else if(rv_Camera[0] == 4){
+			else if(rv_Camera[0] == '4'){
 			
 				__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_2,200);
 				osDelay(500);
@@ -55,13 +61,16 @@
 				osDelay(500);
 				tr_st[0]= 1;
 				singles=0;
-				rv_Camera[0] = 0;
+//				rv_Camera[0] = 0;
+//				rv_Camera[1] = 0;
+//				rv_Camera[2] = 0;
+//				rv_Camera[3] = 0;
 			}
 			else{
 			
 				__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,150);
 				__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_2,150);
-			
+			  tr_st[0] =0;
 			}
 		}
 	}
